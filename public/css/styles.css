@@ -147,22 +147,22 @@ header {
     font-size: 12px;
 }
 
-/*Event page*/
+/* Event page */
 #image-container,
 #info-container {
     margin-top: 30px;
 }
 
-#image-container img{
+#image-container img {
     border-radius: 10px;
 }
 
-#info-container h1{
+#info-container h1 {
     font-size: 36px;
     font-weight: 900;
 }
 
-#info-container p{
+#info-container p {
     margin: 0;
     font-size: 14px;
     display: flex;
@@ -174,7 +174,7 @@ header {
     font-weight: bold;
 }
 
-#info-container ion-icon{
+#info-container ion-icon {
     font-size: 20px;
     color: #F2A340;
     margin-right: 5px;
@@ -184,6 +184,14 @@ header {
     margin: 20px 0;
 }
 
+#items-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+#items-list li {
+    display: flex;
+}
 
 /* footer */
 footer {
